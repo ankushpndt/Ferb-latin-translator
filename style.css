@@ -13,8 +13,8 @@ body{
     font-family: 'Playfair Display', serif;
     font-weight: bolder;
     background-image: url(ferb.jpg);
-    background-position: center;
     background-repeat: no-repeat;
+    background-position: center;
 }
 nav{
     background-color: #DC2626; 
