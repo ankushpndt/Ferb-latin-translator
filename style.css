@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    background-image: url(ferb.jpg);
+}
+nav{
+    background-color: #DC2626; 
+    padding: 2rem;
+    text-align: center;
+    font-weight: bolder;
+}
+main{
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+}
+#txt-area{
+    box-sizing: border-box;
+    display: block;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    min-height: 20vh;
+    font-family: inherit;
+    
+}
+#btn-translate{
+    border: 2px solid black;
+    background-color: #DC2626;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-weight: bold;
+}
+#text{
+    color: white;
+}
+#output-txt{
+    box-sizing: border-box;
+    border: 4px solid black;
+    display: block;
+    margin: auto;
+    padding-bottom: 4rem;
+    min-height: 10vh;
+    background-color: white;
+    padding: 0.5rem;
+}
+footer{
+    width: 100%;
+    display: block;
+    background-color: #DC2626;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+footer p{
+    max-width: 600px;
+    margin: auto;
+    font-weight: lighter;   
+}
