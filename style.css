@@ -55,7 +55,7 @@ footer{
     width: 100%;
     display: block;
     background-color: #DC2626;
-    padding: 1rem;
+    
     text-align: center;
     position: fixed;
     bottom: 0;
@@ -64,4 +64,5 @@ footer p{
     max-width: 600px;
     margin: auto;
     font-weight: lighter;   
+    padding-bottom: 1rem;
 }
