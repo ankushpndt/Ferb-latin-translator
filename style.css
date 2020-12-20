@@ -20,6 +20,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    
 }
 nav{
     background-color: #DC2626; 
@@ -35,7 +36,7 @@ main{
     flex-grow: 1;
 }
 #txt-area{
-    
+    display: block;
     margin-top: 2rem;
     padding: 0.5rem 1rem;
     width: 100%;
